@@ -20,6 +20,14 @@ which is very useful and rare to find in a lot of datasets.
 | Original license | [CC-BY-3.0](https://doi.org/10.1594/PANGAEA.886889) |
 | Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/alps-gps-velocity/blob/main/prepare.ipynb) |
 
+## Changes made
+
+> These are the changes made to the original dataset.
+
+* Combined the data from 3 different files, keeping the 3-component
+  velocities in the Eurasion frame, coordinates, uncertainties, and station ID.
+* Exported to a compressed CSV file.
+
 ## About this repository
 
 This is a place to format and prepare the original dataset for use in our
