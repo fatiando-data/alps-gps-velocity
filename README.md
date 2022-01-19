@@ -1,33 +1,24 @@
-<!--
-This is a template for datasets in the Fatiando a Terra collection.
+# Alps - 3D GPS velocities
 
-When adding a new dataset, fill out the information below. Search for all
-instances of "CHANGEME" and replace with the relevant information.
+This is a compilation of 3D GPS velocities for the Alps.
+The horizontal velocities are reference to the Eurasian frame.
+All velocity components and even the position have error estimates,
+which is very useful and rare to find in a lot of datasets.
 
-You probably also want to edit the conda environment.yml file to give the
-environment a new name and add/remove dependencies.
-
-You can delete this comment once done.
--->
-
-# Location - Data type
-
-CHANGEME: A few sentences about the dataset and a plot should go here.
-
-![CHANGEME: The alt text of the image.](preview.jpg)
+![Horizontal and vertical velocities for the Alps](preview.jpg)
 
 | | Summary |
 |--:|:--|
-| File | `CHANGEME.csv` |
-| Size | CHANGEME Mb |
-| Version | [CHANGEME](https://github.com/fatiando-data/CHANGEME/releases/latest) |
-| DOI | [CHANGEME](https://doi.org/CHANGEME) |
+| File | `alps-gps-velocity.csv.xz` |
+| Size | 0.005 Mb |
+| Version | [v1](https://github.com/fatiando-data/alps-gps-velocity/releases/latest) |
+| DOI | https://doi.org/10.5281/zenodo.5879163 |
 | License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
-| MD5 | `md5:CHANGEME` |
-| SHA256 | `sha256:CHANGEME` |
-| Source | CHANGEME: Citation and/or link to original data source |
-| Original license | CHANGEME: License (with link) of the original source |
-| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+| MD5 | `md5:195ee3d88783ce01b6190c2af89f2b14` |
+| SHA256 | `sha256:77f2907c2a019366e5f85de5aafcab2d0e90cc2c378171468a7705cab9938584` |
+| Source | Sánchez, Laura; Völksen, Christof; Sokolov, Alexandr; Arenz, Herbert; Seitz, Florian (2018): Present-day surface deformation of the Alpine Region inferred from geodetic techniques (data). PANGAEA, https://doi.org/10.1594/PANGAEA.886889 |
+| Original license | [CC-BY-3.0](https://doi.org/10.1594/PANGAEA.886889) |
+| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/alps-gps-velocity/blob/main/prepare.ipynb) |
 
 ## About this repository
 
